@@ -1,0 +1,47 @@
+[
+  {
+    "caso": 1,
+    "id_linha": 261,
+    "notebook_mpg": 18.1050319672,
+    "interface_mpg": 18.105031967163086,
+    "interface_exibido": "18.105",
+    "diferenca_absoluta": 3.6912695122737205e-11,
+    "status": "OK"
+  },
+  {
+    "caso": 2,
+    "id_linha": 104,
+    "notebook_mpg": 12.5985279083,
+    "interface_mpg": 12.598527908325195,
+    "interface_exibido": "12.599",
+    "diferenca_absoluta": 2.5195845410053153e-11,
+    "status": "OK"
+  },
+  {
+    "caso": 3,
+    "id_linha": 55,
+    "notebook_mpg": 28.3541717529,
+    "interface_mpg": 28.354171752929688,
+    "interface_exibido": "28.354",
+    "diferenca_absoluta": 2.9686475500056986e-11,
+    "status": "OK"
+  },
+  {
+    "caso": 4,
+    "id_linha": 396,
+    "notebook_mpg": 30.3822536469,
+    "interface_mpg": 30.382253646850586,
+    "interface_exibido": "30.382",
+    "diferenca_absoluta": 4.941469455843617e-11,
+    "status": "OK"
+  },
+  {
+    "caso": 5,
+    "id_linha": 394,
+    "notebook_mpg": 36.0258369446,
+    "interface_mpg": 36.02583694458008,
+    "interface_exibido": "36.026",
+    "diferenca_absoluta": 1.992361831071321e-11,
+    "status": "OK"
+  }
+]

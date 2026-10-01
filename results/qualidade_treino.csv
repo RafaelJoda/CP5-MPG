@@ -1,0 +1,10 @@
+,tipo,ausentes,valores_distintos
+mpg,float64,0,120
+cylinders,int64,0,5
+displacement,float64,0,78
+horsepower,float64,5,89
+weight,float64,0,286
+acceleration,float64,0,90
+model_year,int64,0,13
+origin,int64,0,3
+car_name,object,0,246

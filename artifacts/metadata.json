@@ -1,0 +1,182 @@
+{
+  "modelo": "XGBoost",
+  "estrategia": "Optuna",
+  "seed": 42,
+  "features": [
+    "cylinders",
+    "displacement",
+    "horsepower",
+    "weight",
+    "acceleration",
+    "model_year",
+    "origin"
+  ],
+  "mae_cv": 1.9482032327803354,
+  "dp_mae_cv": 0.15231239003547273,
+  "mae_treino": 0.4951741126129542,
+  "metricas_teste": {
+    "mae": 1.7418752932548525,
+    "rmse": 2.378432947594711,
+    "r2": 0.8947867314322037
+  },
+  "n_treino": 318,
+  "n_teste": 80,
+  "n_trials_por_modelo": 20,
+  "sha256_dados": "48b830e11feee5572525f8f1691ddb9d38d3d7b7063edcd8fca672c2a5e17d8d",
+  "versoes": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "optuna": "5.0.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2"
+  },
+  "parametros_modelo": {
+    "objective": "reg:squarederror",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": 0.9958282912074427,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": true,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.06616558444672582,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": 4,
+    "max_leaves": null,
+    "min_child_weight": 1.0981987575734145,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 200,
+    "n_jobs": 1,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": 0.65976564638979,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": 0.9264334474512869,
+    "tree_method": "hist",
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "limites_treino": {
+    "cylinders": {
+      "min": 3.0,
+      "max": 8.0
+    },
+    "displacement": {
+      "min": 68.0,
+      "max": 455.0
+    },
+    "horsepower": {
+      "min": 46.0,
+      "max": 225.0
+    },
+    "weight": {
+      "min": 1613.0,
+      "max": 5140.0
+    },
+    "acceleration": {
+      "min": 8.0,
+      "max": 24.8
+    },
+    "model_year": {
+      "min": 70.0,
+      "max": 82.0
+    }
+  },
+  "casos_consistencia": [
+    {
+      "id_linha": 261,
+      "car_name": "amc concord d/l",
+      "cylinders": 6,
+      "displacement": 258.0,
+      "horsepower": 120.0,
+      "weight": 3410.0,
+      "acceleration": 15.1,
+      "model_year": 78,
+      "origin": 1,
+      "real_mpg": 18.1,
+      "previsto_mpg": 18.1050319672,
+      "erro_real_menos_previsto": -0.0050319672,
+      "erro_absoluto": 0.0050319672
+    },
+    {
+      "id_linha": 104,
+      "car_name": "ford country",
+      "cylinders": 8,
+      "displacement": 400.0,
+      "horsepower": 167.0,
+      "weight": 4906.0,
+      "acceleration": 12.5,
+      "model_year": 73,
+      "origin": 1,
+      "real_mpg": 12.0,
+      "previsto_mpg": 12.5985279083,
+      "erro_real_menos_previsto": -0.5985279083,
+      "erro_absoluto": 0.5985279083
+    },
+    {
+      "id_linha": 55,
+      "car_name": "volkswagen model 111",
+      "cylinders": 4,
+      "displacement": 97.0,
+      "horsepower": 60.0,
+      "weight": 1834.0,
+      "acceleration": 19.0,
+      "model_year": 71,
+      "origin": 2,
+      "real_mpg": 27.0,
+      "previsto_mpg": 28.3541717529,
+      "erro_real_menos_previsto": -1.3541717529,
+      "erro_absoluto": 1.3541717529
+    },
+    {
+      "id_linha": 396,
+      "car_name": "ford ranger",
+      "cylinders": 4,
+      "displacement": 120.0,
+      "horsepower": 79.0,
+      "weight": 2625.0,
+      "acceleration": 18.6,
+      "model_year": 82,
+      "origin": 1,
+      "real_mpg": 28.0,
+      "previsto_mpg": 30.3822536469,
+      "erro_real_menos_previsto": -2.3822536469,
+      "erro_absoluto": 2.3822536469
+    },
+    {
+      "id_linha": 394,
+      "car_name": "vw pickup",
+      "cylinders": 4,
+      "displacement": 97.0,
+      "horsepower": 52.0,
+      "weight": 2130.0,
+      "acceleration": 24.6,
+      "model_year": 82,
+      "origin": 2,
+      "real_mpg": 44.0,
+      "previsto_mpg": 36.0258369446,
+      "erro_real_menos_previsto": 7.9741630554,
+      "erro_absoluto": 7.9741630554
+    }
+  ]
+}

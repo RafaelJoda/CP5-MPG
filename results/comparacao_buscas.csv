@@ -1,0 +1,7 @@
+modelo,estrategia,mae_cv,tempo_s,candidatos,parametros
+Random Forest,GridSearch,2.0348453000992057,4.944763955999974,8,"{'modelo__max_depth': None, 'modelo__min_samples_leaf': 1, 'modelo__n_estimators': 160}"
+XGBoost,GridSearch,1.9934841909295038,1.0323648520000006,8,"{'modelo__learning_rate': 0.1, 'modelo__max_depth': 2, 'modelo__n_estimators': 160}"
+LightGBM,GridSearch,1.9557143318976238,0.8486650720000171,8,"{'modelo__learning_rate': 0.1, 'modelo__n_estimators': 80, 'modelo__num_leaves': 15}"
+Random Forest,Optuna,2.0127238591269845,14.897706126000003,20,"{'n_estimators': 200, 'max_depth': None, 'min_samples_leaf': 1, 'max_features': 0.7}"
+XGBoost,Optuna,1.9482032327803354,3.061193026000069,20,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.06616558444672582, 'min_child_weight': 1.0981987575734145, 'subsample': 0.9264334474512869, 'colsample_bytree': 0.9958282912074427, 'reg_lambda': 0.65976564638979}"
+LightGBM,Optuna,2.010779570548606,2.35703101699994,20,"{'n_estimators': 240, 'num_leaves': 20, 'learning_rate': 0.02623983405326118, 'min_child_samples': 8, 'colsample_bytree': 0.8269628229845762, 'reg_lambda': 0.1227494275976871}"

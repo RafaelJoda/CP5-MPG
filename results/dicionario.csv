@@ -1,0 +1,10 @@
+Variável,Papel/tipo,Descrição
+mpg,Alvo,Eficiência em milhas por galão americano
+cylinders,Numérica discreta,Número de cilindros
+displacement,Numérica,Cilindrada em polegadas cúbicas
+horsepower,Numérica,Potência em horsepower; ? representa ausência
+weight,Numérica,Peso em libras
+acceleration,Numérica,"Tempo de aceleração de 0 a 60 mph, em segundos"
+model_year,Numérica discreta,Ano-modelo codificado: 70 = 1970
+origin,Categórica,1: EUA; 2: Europa; 3: Japão
+car_name,Identificação textual,"Nome/modelo, excluído dos preditores"
