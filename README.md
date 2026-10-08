@@ -3,17 +3,6 @@
 Projeto de Data Science & Statistical Computing — FIAP, 2026.
 Comparação de Random Forest, XGBoost e LightGBM na base Auto MPG, com Grid Search, Optuna e interface Streamlit.
 
-## Identificação e links
-
-| Integrante | RM |
-| --- | --- |
-| Rafael Joda | **PREENCHER** |
-
-Acrescentar os demais integrantes, se houver. O grupo pode ter até cinco alunos.
-
-- GitHub: **PENDENTE DE PUBLICAÇÃO**
-- Streamlit: **PENDENTE DE PUBLICAÇÃO**
-- Preencher também `URL_GITHUB` e `URL_STREAMLIT` no Exercício 7 do notebook.
 
 ## Problema
 
